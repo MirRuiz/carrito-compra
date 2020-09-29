@@ -1,42 +1,47 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
-.shooping-header > h2 {
-    margin:auto;
-    padding:20px;
+
+.shopping-header > h2 {
     text-align: center;
+    padding: 20px;
 }
-.shooping-item {
+
+.shopping-item {
     padding: 32px;
-    border-radius:3px;
+    border-radius: 3px;
     border: 1px solid #dcdcdc;
     display: flex;
     justify-content: space-between;
     margin-bottom: 8px;
 }
+
 .responsive {
     max-width: 50%;
     width: 100px;
     height: auto;
 }
-.item-entrada {
+
+.item-entry {
     width: 300px;
 }
-.item-nombre {
+
+.item-name {
     text-transform: uppercase;
     color: #666666;
     font-size: 20px;
-    font-weight: bold;
 }
-.item-descripcion {
+
+.item-description {
     text-transform: lowercase;
     font-size: 16px;
     display: block;
-}  
-.cantidad {
+}
+
+.quantity {
     box-shadow: inset 0px 1px 0px 0px #ffffff;
     background-color: transparent;
-    border-radius:3px;
+    border-radius: 3px;
     border: 1px solid #dcdcdc;
     cursor: pointer;
     color: #666666;
@@ -44,29 +49,33 @@ body{
     font-weight: bold;
     padding: 6px 12px;
     text-shadow: 0px 1px 0px #ffffff;
-
 }
-.cantidad:active {
+
+.quantity:active {
     position: relative;
     top: 1px;
 }
-.cantidad-amontonada {
+
+.quantity-amount {
     color: #666666;
-    font-size:16px;
     font-weight: bold;
     margin-left: 16px;
     margin-right: 16px;
 }
-.valor {
+
+.value {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 24px;
     min-width: 100px;
 }
-.shooping-footer {
+
+.shopping-footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.shooping-footer > span {
-    font-weight: 700px;
+
+.shopping-footer > span {
+    font-weight: 700;
     font-size: 30px;
 }
+
